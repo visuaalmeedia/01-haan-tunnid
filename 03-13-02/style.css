@@ -1,14 +1,13 @@
 body {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 main {
-    background-color: bisque;
     max-width: 100%;
     width: 80ch;
-}   
+}
 .card-row {
     display: flex;
     gap: 1rem;
