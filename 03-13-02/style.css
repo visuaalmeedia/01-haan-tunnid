@@ -1,15 +1,24 @@
 body {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 1rem;
 }
+
 main {
     background-color: bisque;
-    max-width: 100%;
-    width: 80ch;
-}   
+    max-width: 56rem;
+    width: 100%;
+}
+
 .card-row {
     display: flex;
+    flex-wrap: wrap;
     gap: 1rem;
+}
+
+.card {
+    min-width: 18rem;
+    flex: 1;
 }
