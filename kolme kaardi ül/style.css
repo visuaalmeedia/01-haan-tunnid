@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1rem;
+    box-sizing: border-box;
+    background-color: azure;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    line-height: 150%;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 html {
+    height: 100%;
+}
+
+main {
+    width: 100%;
+    max-width: 56rem;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.card-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    color: rgb(0, 0, 0);
+}
+
+.card {
+    background-color: rgb(225, 226, 215);
+    min-width: 18rem;
+    flex: 1;
+    padding: 1rem;
+    box-sizing: border-box;
+    transition: all 0.25s;
+    border-radius: 0.5rem;
+}
+
+html {
+    height: 100%;
+}
+
+.hero {
+    color: rgb(0, 0, 0);
+    padding: 4rem;
+    font-size: 1.7rem;
+    line-height: 1.75rem;
+    background-image: url(img/nikita-pishchugin-c0241Qw-5sc-unsplash.jpg);
+    background-position: center;
+    border-radius: 0.5rem;
+}
+
+a.card {
+    text-decoration: none;
+    color: inherit;
+}
+
+.shadow {
+    box-shadow: 0 0.25rem 1.25rem rgb(80, 80, 81);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 0.25rem;
+}
+
+a.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0.25rem 1.25rem rgb(80, 80, 81);
+}
+
+a.card:active {
+    transform: scale(0.15);
+    transition: 0.15s;
+}
