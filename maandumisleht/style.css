@@ -1,0 +1,19 @@
+.header {
+    padding: 5px;
+    text-align: center;
+    background: rgb(158, 155, 155);
+    color: white;
+    font-size: 30px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.botton-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
